@@ -1,0 +1,229 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>About Us - KELOMPOK 4 PROJECT DAY</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+    <style>
+        /* Custom CSS for the About Us section */
+        .about-us {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        .about-us article {
+            flex: 1 1 calc(15px - 20px);
+            margin: 10px;
+            text-align: center;
+        }
+        .about-us img {
+            width: 100%;
+            height: 100%;
+            border-radius: 20px; /* Rounded corners */
+            object-fit: cover;  /* Ensures the image covers the entire area */
+        }
+        .about-us .image-container {
+            width: 100%;
+            padding-bottom: 100%; /* Aspect ratio 1:1 */
+            position: relative;
+            overflow: hidden;
+            border-radius: 20px; /* Rounded corners */
+        }
+        .about-us .image-container img {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: 0;
+        }
+        .about-us h2 {
+            margin-top: 15px; /* Adjust the name position */
+            margin-bottom: 5px; /* Reduce space between name and description */
+            font-style: italic;
+            font-size: 20px;
+        }
+        .about-us p {
+            margin-top: 0; /* Remove default margin */
+        }
+        /* Custom CSS for header image */
+        .header-image {
+            width: 100%;
+            height: auto;
+            margin-bottom: 0; /* Remove bottom margin */
+            padding-bottom: 0; /* Remove bottom padding */
+        }
+        body {
+            margin-top: 0; /* Remove top margin */
+        }
+        
+        /* Custom CSS for the resume section */
+        * { margin: 0; padding: 0; }
+        body { font: 16px Helvetica, Sans-Serif; line-height: 24px; background: url(images/noise.jpg); }
+        .clear { clear: both; }
+        #page-wrap { width: 800px; margin: 20px auto 60px; } /* Adjusted top margin */
+        #pic { 
+            width: 150px;
+            height: 150px;
+            border-radius: 50%; /* Make the image circular */
+            overflow: hidden;
+            float: left; /* Float image to the left */
+            margin-right: 20px; /* Space between image and text */
+        }
+        #pic img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        h1 { margin: 0 0 16px 0; padding: 0 0 16px 0; font-size: 42px; font-weight: bold; letter-spacing: -2px; border-bottom: 1px solid #999; }
+        h2 { font-size: 20px; margin: 0 0 6px 0; position: relative; font-style: italic; }
+        h2 span { position: absolute; bottom: 0; right: 0; font-style: italic; font-family: Georgia, Serif; font-size: 16px; color: #999; font-weight: normal; }
+        p { margin: 0 0 16px 0; }
+        a { color: #999; text-decoration: none; border-bottom: 1px dotted #999; }
+        a:hover { border-bottom-style: solid; color: black; }
+        ul { margin: 0 0 32px 17px; }
+        #objective { width: 500px; float: left; }
+        #objective p { font-family: Georgia, Serif; font-style: italic; color: #666; }
+        dt { font-style: italic; font-weight: bold; font-size: 18px; text-align: right; padding: 0 26px 0 0; width: 150px; float: left; height: 100px; border-right: 1px solid #999;  }
+        dd { width: 600px; float: right; }
+        dd.clear { float: none; margin: 0; height: 15px; }
+
+        /* Custom CSS for footer */
+        #footer {
+            padding: 20px; /* Add padding */
+            margin-left: 20px; /* Add margin */
+            background: #f8f8f8; /* Add a background color for better visibility */
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <img src="images/kami.png" alt="Header Image" class="header-image" />
+    </div>
+    <div id="page-wrap">
+        <!-- Header -->
+        <header id="header">
+            <div class="inner">
+                <!-- Nav -->
+                <nav>
+                    <ul>
+                        <li><a href="#menu">Menu</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <!-- Menu -->
+        <nav id="menu">
+            <h2>Menu</h2>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="aboutus.html">Tentang Kami</a></li>
+                <li><a href="tutorial.html">Tutorial</a></li>
+            </ul>
+        </nav>
+       
+    
+        <div id="pic">
+            <img src="images/Dwi Fitria N _KSK.JPG" alt="Photo of Atsilla Syifa Puti Arini" />
+        </div>
+        
+        <div id="contact-info" class="vcard">
+        
+            <!-- Microformats! -->
+        
+            <h1 class="fn">Dwi Fitria Ningsih</h1>
+            <h3>21/482574/SV/19969</h3>
+        
+        </div>
+        
+
+        
+        <div class="clear"></div>
+        
+        <dl>
+            <dd class="clear"></dd>
+            
+            <dt>Education</dt>
+            <dd>
+                <h2>Universitas Gadjah Mada - Manajemen Informasi Kesehatan</h2>
+                <p>2021 - present</p>
+
+                <h2>SMAN 4 Yogyakarta</h2>
+                <p>2018 - 2021</p>
+            </dd>
+            
+            <dd class="clear"></dd>
+
+            <dt>Internship</dt>
+            <dd>
+                <h2>Dinas Kesehatan Kab. Bantul</h2>
+                <p>Des 2023 - Feb 2024</p>
+                
+                <h2>RSUD dr. Soedirman Kebumen</h2>
+                <p>Juni 2023 - Juli 2023</p>
+
+                <h2>Puskesmas Nanggulan, Kulon Progo</h2>
+                <p>Jan 2023 - Feb 2023</p>
+                
+                <h2>RSUD Wates, Kulon Progo</h2>
+                <p>Jun 2022 - Aug 2022</p
+                </dd>
+
+                <dd class="clear"></dd>
+    
+                <dt>Organizational Experience</dt>
+                <dd>
+                    <h2>Medical Record Family</h2>
+                    <p>Staf Divisi Kewirusahaan</p>
+                    <p>Jan 2023 - Des 2023</p>
+                    
+                    <h2>KMD LIKES</h2>
+                    <p>Staf Divisi Kewirusahaan</p>
+                    <p>Jan 2023 - Des 2023</p>
+                </dd>
+    
+                <dd class="clear"></dd>
+                
+                <dt>Skills</dt>
+                <dd>
+                    <p><strong>Soft Skills:</strong>Bertanggung Jawab<br />
+                       <strong>Hard Skills:</strong>Microsoft Office, Desain</p>
+                </dd>
+               
+            </dl>
+            
+            <div class="clear"></div>
+        
+        </div>
+    
+        <!-- Section 5 -->
+        <section id="intro" class="main" style="margin-bottom: 40px;">
+            <div class="content">
+                <header class="major">
+                    <h2 style="padding-left: 5%; margin-bottom: 0; font-size: larger;">Informasi lebih lanjut</h2>
+                </header>
+                <p style="max-width: 95%; padding-left: 5%; text-align: justify; color:blue; margin-bottom: 0;">
+                    <a href="https://drive.google.com/file/d/1L5hhgvT9e9nI2rgytXcm7B8zVWNzLgRP/view?usp=drive_link">
+                        <i class="fas fa-download"></i> Unduh CV disini<span style="float: right; font-size:xx-large; font-weight: bold;">&rarr;</span>
+                    </a>
+                </p>
+                <p style="max-width: 95%; padding-left: 5%; text-align: justify; color:blue; margin-bottom: 0;">
+                    <a href="https://www.instagram.com/atsillasyifa/">
+                        <i class="fab fa-instagram"></i> Akun Instagram<span style="float: right; font-size:xx-large; font-weight: bold;">&rarr;</span>
+                    </a>
+                
+            </div>
+        </section>
+       
+    
+        <!-- Scripts -->
+        <script src="assets/js/jquery.min.js"></script>
+        <script src="assets/js/browser.min.js"></script>
+        <script src="assets/js/breakpoints.min.js"></script>
+        <script src="assets/js/util.js"></script>
+        <script src="assets/js/main.js"></script>
+    </body>
+    </html>
+    

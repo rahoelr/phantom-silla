@@ -1,0 +1,161 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>About Us - KELOMPOK 4 PROJECT DAY</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <style>
+        /* Custom CSS for the About Us section */
+        .about-us {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        .about-us article {
+            flex: 1 1 calc(15px - 20px);
+            margin: 10px;
+            text-align: center;
+        }
+        .about-us img {
+            width: 100%;
+            height: auto;
+            border-radius: 20px; /* Rounded corners */
+            object-fit: cover;  /* Ensures the image covers the entire area */
+        }
+        .about-us .image-container {
+            width: 100%;
+            height: 0;
+            padding-bottom: 100%; /* Aspect ratio 1:1 */
+            position: relative;
+            overflow: hidden;
+            border-radius: 20px; /* Rounded corners */
+        }
+        .about-us .image-container img {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: 0;
+        }
+        .about-us h2 {
+            margin-top: 15px; /* Adjust the name position */
+            margin-bottom: 5px; /* Reduce space between name and description */
+        }
+        .about-us p {
+            margin-top: 0; /* Remove default margin */
+        }
+        /* Custom CSS for header image */
+        .header-image {
+            width: 100%;
+            height: auto;
+        }
+        body {
+            margin-top: 0; /* Menghapus margin atas */
+        }
+        head {margin-bottom: 0; }
+    </style>
+</head>
+<body>
+    <div id="wrapper">
+
+        <!-- Header Image -->
+        <div>
+            <img src="images/kami.png" alt="Header Image" class="header-image" />
+        </div>
+
+        <!-- Header -->
+        <header id="header">
+            <div class="inner">
+                <nav>
+                    <ul>
+                        <li><a href="#menu">Menu</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <!-- Menu -->
+        <nav id="menu">
+            <h2>Menu</h2>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="aboutus.html">Tentang Kami</a></li>
+                <li><a href="tutorial.html">Tutorial</a></li>
+            </ul>
+        </nav>
+
+        
+        <!-- Main -->
+        <div id="main">
+            <div class="inner">
+
+                <section class="about-us">
+                    <article>
+                        <a href="person1.html">
+                            <div class="image-container">
+                                <img src="images/Atsilla Syifa Puti Arini_KSK.JPG" alt="Person 1" />
+                            </div>
+                        </a>
+                        <h2>Atsilla Syifa</h2>
+                        <p>Manajemen Informasi Kesehatan</p>
+                    </article>
+                    <article>
+                        <a href="person2.html">
+                            <div class="image-container">
+                                <img src="images/Dwi Fitria N _KSK.JPG" alt="Person 2" />
+                            </div>
+                        </a>
+                        <h2>Dwi Fitria</h2>
+                        <p>Manajemen Informasi Kesehatan</p>
+                    </article>
+                    <article>
+                        <a href="person3.html">
+                            <div class="image-container">
+                                <img src="images/Gambar WhatsApp 2024-05-31 pukul 12.44.21_ab315a72.jpg" alt="Person 3" />
+                            </div>
+                        </a>
+                        <h2>Gestyana Dwi</h2>
+                        <p>Manajemen Informasi Kesehatan</p>
+                    </article>
+                    <article>
+                        <a href="person4.html">
+                            <div class="image-container">
+                                <img src="images/Imtinan Nasywa_Technical.JPG" alt="Person 4" />
+                            </div>
+                        </a>
+                        <h2>Imtinan Nasywa</h2>
+                        <p>Manajemen Informasi Kesehatan</p>
+                    </article>
+                    <article>
+                        <a href="person5.html">
+                            <div class="image-container">
+                                <img src="images/IMG_1843.JPG" alt="Person 5" />
+                            </div>
+                        </a>
+                        <h2>Refika Nurul</h2>
+                        <p>Manajemen Informasi Kesehatan</p>
+                    </article>
+                    <article>
+                        <a href="person6.html">
+                            <div class="image-container">
+                                <img src="images/Selviana Ananta Putri_Konsumsi.JPG" alt="Person 6" />
+                            </div>
+                        </a>
+                        <h2>Selviana Ananta</h2>
+                        <p>Manajemen Informasi Kesehatan</p>
+                    </article>
+                </section>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
